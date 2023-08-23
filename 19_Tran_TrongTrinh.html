@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form for student</title>
+    <style>
+      #Gender {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Form login for student</h1>
+      <form action="">
+        <label for="FullName">Tên Đầy Đủ :</label><br />
+
+        <input
+          style="outline: none"
+          type="text"
+          name="TenSV"
+          placeholder="Nguyen Van A"
+          id=""
+          required
+        />
+        <br />
+        <label for="code-student"> Mã Sinh Viên :</label><br />
+        <input
+          style="outline: none"
+          type="text"
+          name="MaSV"
+          placeholder="2121010111"
+          id=""
+          required
+        />
+        <br />
+        <label for="pasword"> Password :</label><br />
+        <input
+          style="outline: none"
+          type="password"
+          name="password"
+          id=""
+          required
+        />
+        <br />
+        <label for="mail"> Email :</label><br />
+        <input
+          style="outline: none"
+          type="email"
+          name="mail"
+          id="Gender"
+          placeholder="abc@student.humg.edu.vn"
+          required
+        />
+        <br />
+        <label for="Gender"> Gender :</label><br />
+        <input
+          style="outline: none"
+          type="radio"
+          name="gender"
+          value="Nam"
+          id="Gender"
+        />Nam
+        <input
+          style="outline: none"
+          type="radio"
+          name="gender"
+          value="Nữ"
+          id="Gender"
+        />Nữ
+        <input
+          style="outline: none"
+          type="radio"
+          name="gender"
+          value="Khác"
+          id="Gender"
+        />Khác
+        <br />
+        <label for="">Chuyên Ngành</label><br />
+        <select style="outline: none" name="Major" id="">
+          <option value="">CNTT Địa Học</option>
+          <option value="">CNTT Kinh Tế</option>
+          <option value="">Mạng Máy Tính</option>
+          <option value="">Công Nghệ Phần Mềm</option>
+        </select>
+        <br />
+        <select size="4" name="Hoc Phan" id="">
+          <option value="">Phát Triển Ứng dụng web</option>
+          <option value="">Python</option>
+          <option value="">Cơ Sở lập Trình</option>
+          <option value="">Cơ Sở Dữ Liệu</option></select
+        ><br />
+        <label for="date"> Birthday :</label><br />
+        <input style="outline: none" type="datetime-local" name="MaSV" id="" />
+        <br />
+        <input type="checkbox" />Remember me
+        <br />
+        <input
+          style="cursor: pointer"
+          type="submit"
+          name=""
+          value="Đăng Nhập"
+          id=""
+        />
+        <input
+          style="cursor: pointer"
+          type="reset"
+          name=""
+          value="Hủy"
+          id=""
+        /><br />
+      </form>
+    </div>
+  </body>
+</html>
